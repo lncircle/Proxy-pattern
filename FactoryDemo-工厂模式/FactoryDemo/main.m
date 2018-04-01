@@ -7,20 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "IPhoneGenerator.h"
 #import "IPhoneXGenerator.h"
-#import "IPhoneX_256G_Generator.h"
-#import "IPhoneX_64G_Generator.h"
+#import "IPhoneSEGenerator.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        IPhoneXGenerator *generator_64 = [[IPhoneX_64G_Generator alloc] init];
-        IPhoneXGenerator *generator_256 = [[IPhoneX_256G_Generator alloc] init];
-        IPhoneX *iphone_64 = [generator_64 creatWithMemoryCount:@(64)];
-        IPhoneX *iphone_256 = [generator_256 creatWithMemoryCount:@(256)];
+        IPhoneGenerator *generator_X = [[IPhoneXGenerator alloc] init];
+        IPhoneGenerator *generator_SE = [[IPhoneSEGenerator alloc] init];
+        IPhone *iphone_X = [generator_X creatIPhone];
+        IPhone *iphone_SE = [generator_SE creatIPhone];
         
-        NSLog(@"iphone_64 sellPrice:%@",iphone_64.sellPrice);
-        NSLog(@"iphone_256 sellPrice:%@",iphone_256.sellPrice);
+        NSLog(@"iphone_64 sellPrice:%@",iphone_X.sellPrice);
+        NSLog(@"iphone_256 sellPrice:%@",iphone_SE.sellPrice);
     }
     return 0;
 }

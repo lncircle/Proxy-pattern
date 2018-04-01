@@ -1,13 +1,13 @@
 //
-//  IPhoneX_256G.h
+//  IPhoneSE.h
 //  FactoryDemo
 //
 //  Created by mxc235 on 2018/4/1.
 //  Copyright © 2018年 FY. All rights reserved.
 //
 
-#import "IPhoneX.h"
+#import "IPhone.h"
 
-@interface IPhoneX_256G : IPhoneX
+@interface IPhoneSE : IPhone
 
 @end

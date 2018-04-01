@@ -1,5 +1,5 @@
 //
-//  IPhoneXGenerator.h
+//  IPhoneGenerator.m
 //  FactoryDemo
 //
 //  Created by mxc235 on 2018/4/1.
@@ -8,6 +8,11 @@
 
 #import "IPhoneGenerator.h"
 
-@interface IPhoneXGenerator : IPhoneGenerator
+@implementation IPhoneGenerator
+
+- (IPhone *)creatIPhone;
+{
+    return [[IPhone alloc] init];
+}
 
 @end

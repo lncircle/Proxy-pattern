@@ -1,5 +1,5 @@
 //
-//  IPhoneX.h
+//  IPhone.m
 //  FactoryDemo
 //
 //  Created by mxc235 on 2018/4/1.
@@ -8,6 +8,14 @@
 
 #import "IPhone.h"
 
-@interface IPhoneX : IPhone
+@implementation IPhone
+
+- (instancetype)init
+{
+    if (self = [super init]) {
+
+    }
+    return self;
+}
 
 @end

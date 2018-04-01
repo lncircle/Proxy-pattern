@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D76AE3020705A5F00023462 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE2F20705A5F00023462 /* main.m */; };
-		0D76AE5820705F8C00023462 /* IPhoneX_64G_Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE5720705F8C00023462 /* IPhoneX_64G_Generator.m */; };
-		0D76AE5B20705FB000023462 /* IPhoneX_256G_Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE5A20705FB000023462 /* IPhoneX_256G_Generator.m */; };
-		0D76AE5E2070601C00023462 /* IPhoneXGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE5D2070601C00023462 /* IPhoneXGenerator.m */; };
-		0D76AE61207065EA00023462 /* IPhoneX.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE60207065EA00023462 /* IPhoneX.m */; };
-		0D76AE64207065FC00023462 /* IPhoneX_64G.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE63207065FC00023462 /* IPhoneX_64G.m */; };
-		0D76AE672070660900023462 /* IPhoneX_256G.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE662070660900023462 /* IPhoneX_256G.m */; };
+		0D76AE752071199200023462 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE742071199200023462 /* main.m */; };
+		0D76AE7F20711B3C00023462 /* IPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE7E20711B3C00023462 /* IPhone.m */; };
+		0D76AE8220711B4F00023462 /* IPhoneSE.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE8120711B4F00023462 /* IPhoneSE.m */; };
+		0D76AE8520711B8C00023462 /* IPhoneX.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE8420711B8C00023462 /* IPhoneX.m */; };
+		0D76AE8820711BA600023462 /* IPhoneGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE8720711BA600023462 /* IPhoneGenerator.m */; };
+		0D76AE8B20711C0C00023462 /* IPhoneXGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE8A20711C0C00023462 /* IPhoneXGenerator.m */; };
+		0D76AE8E20711C2E00023462 /* IPhoneSEGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE8D20711C2E00023462 /* IPhoneSEGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0D76AE2A20705A5F00023462 /* CopyFiles */ = {
+		0D76AE6F2071199200023462 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -29,24 +29,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0D76AE2C20705A5F00023462 /* FactoryDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryDemo; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D76AE2F20705A5F00023462 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D76AE5620705F8C00023462 /* IPhoneX_64G_Generator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneX_64G_Generator.h; sourceTree = "<group>"; };
-		0D76AE5720705F8C00023462 /* IPhoneX_64G_Generator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneX_64G_Generator.m; sourceTree = "<group>"; };
-		0D76AE5920705FB000023462 /* IPhoneX_256G_Generator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneX_256G_Generator.h; sourceTree = "<group>"; };
-		0D76AE5A20705FB000023462 /* IPhoneX_256G_Generator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneX_256G_Generator.m; sourceTree = "<group>"; };
-		0D76AE5C2070601C00023462 /* IPhoneXGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneXGenerator.h; sourceTree = "<group>"; };
-		0D76AE5D2070601C00023462 /* IPhoneXGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneXGenerator.m; sourceTree = "<group>"; };
-		0D76AE5F207065EA00023462 /* IPhoneX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneX.h; sourceTree = "<group>"; };
-		0D76AE60207065EA00023462 /* IPhoneX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneX.m; sourceTree = "<group>"; };
-		0D76AE62207065FC00023462 /* IPhoneX_64G.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneX_64G.h; sourceTree = "<group>"; };
-		0D76AE63207065FC00023462 /* IPhoneX_64G.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneX_64G.m; sourceTree = "<group>"; };
-		0D76AE652070660900023462 /* IPhoneX_256G.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneX_256G.h; sourceTree = "<group>"; };
-		0D76AE662070660900023462 /* IPhoneX_256G.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneX_256G.m; sourceTree = "<group>"; };
+		0D76AE712071199200023462 /* FactoryDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D76AE742071199200023462 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D76AE7D20711B3C00023462 /* IPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhone.h; sourceTree = "<group>"; };
+		0D76AE7E20711B3C00023462 /* IPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhone.m; sourceTree = "<group>"; };
+		0D76AE8020711B4F00023462 /* IPhoneSE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneSE.h; sourceTree = "<group>"; };
+		0D76AE8120711B4F00023462 /* IPhoneSE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneSE.m; sourceTree = "<group>"; };
+		0D76AE8320711B8C00023462 /* IPhoneX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneX.h; sourceTree = "<group>"; };
+		0D76AE8420711B8C00023462 /* IPhoneX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneX.m; sourceTree = "<group>"; };
+		0D76AE8620711BA600023462 /* IPhoneGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneGenerator.h; sourceTree = "<group>"; };
+		0D76AE8720711BA600023462 /* IPhoneGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneGenerator.m; sourceTree = "<group>"; };
+		0D76AE8920711C0C00023462 /* IPhoneXGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneXGenerator.h; sourceTree = "<group>"; };
+		0D76AE8A20711C0C00023462 /* IPhoneXGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneXGenerator.m; sourceTree = "<group>"; };
+		0D76AE8C20711C2E00023462 /* IPhoneSEGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneSEGenerator.h; sourceTree = "<group>"; };
+		0D76AE8D20711C2E00023462 /* IPhoneSEGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneSEGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0D76AE2920705A5F00023462 /* Frameworks */ = {
+		0D76AE6E2071199200023462 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,68 +56,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D76AE2320705A5F00023462 = {
+		0D76AE682071199200023462 = {
 			isa = PBXGroup;
 			children = (
-				0D76AE2E20705A5F00023462 /* FactoryDemo */,
-				0D76AE2D20705A5F00023462 /* Products */,
+				0D76AE732071199200023462 /* FactoryDemo */,
+				0D76AE722071199200023462 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0D76AE2D20705A5F00023462 /* Products */ = {
+		0D76AE722071199200023462 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D76AE2C20705A5F00023462 /* FactoryDemo */,
+				0D76AE712071199200023462 /* FactoryDemo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D76AE2E20705A5F00023462 /* FactoryDemo */ = {
+		0D76AE732071199200023462 /* FactoryDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0D76AE4320705B6400023462 /* IPhone */,
-				0D76AE4220705B5B00023462 /* Generator */,
-				0D76AE2F20705A5F00023462 /* main.m */,
+				0D76AE7C207119A700023462 /* Generator */,
+				0D76AE7B2071199700023462 /* IPhone */,
+				0D76AE742071199200023462 /* main.m */,
 			);
 			path = FactoryDemo;
 			sourceTree = "<group>";
 		};
-		0D76AE4220705B5B00023462 /* Generator */ = {
+		0D76AE7B2071199700023462 /* IPhone */ = {
 			isa = PBXGroup;
 			children = (
-				0D76AE5C2070601C00023462 /* IPhoneXGenerator.h */,
-				0D76AE5D2070601C00023462 /* IPhoneXGenerator.m */,
-				0D76AE5620705F8C00023462 /* IPhoneX_64G_Generator.h */,
-				0D76AE5720705F8C00023462 /* IPhoneX_64G_Generator.m */,
-				0D76AE5920705FB000023462 /* IPhoneX_256G_Generator.h */,
-				0D76AE5A20705FB000023462 /* IPhoneX_256G_Generator.m */,
-			);
-			path = Generator;
-			sourceTree = "<group>";
-		};
-		0D76AE4320705B6400023462 /* IPhone */ = {
-			isa = PBXGroup;
-			children = (
-				0D76AE5F207065EA00023462 /* IPhoneX.h */,
-				0D76AE60207065EA00023462 /* IPhoneX.m */,
-				0D76AE62207065FC00023462 /* IPhoneX_64G.h */,
-				0D76AE63207065FC00023462 /* IPhoneX_64G.m */,
-				0D76AE652070660900023462 /* IPhoneX_256G.h */,
-				0D76AE662070660900023462 /* IPhoneX_256G.m */,
+				0D76AE7D20711B3C00023462 /* IPhone.h */,
+				0D76AE7E20711B3C00023462 /* IPhone.m */,
+				0D76AE8320711B8C00023462 /* IPhoneX.h */,
+				0D76AE8420711B8C00023462 /* IPhoneX.m */,
+				0D76AE8020711B4F00023462 /* IPhoneSE.h */,
+				0D76AE8120711B4F00023462 /* IPhoneSE.m */,
 			);
 			path = IPhone;
+			sourceTree = "<group>";
+		};
+		0D76AE7C207119A700023462 /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				0D76AE8620711BA600023462 /* IPhoneGenerator.h */,
+				0D76AE8720711BA600023462 /* IPhoneGenerator.m */,
+				0D76AE8920711C0C00023462 /* IPhoneXGenerator.h */,
+				0D76AE8A20711C0C00023462 /* IPhoneXGenerator.m */,
+				0D76AE8C20711C2E00023462 /* IPhoneSEGenerator.h */,
+				0D76AE8D20711C2E00023462 /* IPhoneSEGenerator.m */,
+			);
+			path = Generator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0D76AE2B20705A5F00023462 /* FactoryDemo */ = {
+		0D76AE702071199200023462 /* FactoryDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D76AE3320705A5F00023462 /* Build configuration list for PBXNativeTarget "FactoryDemo" */;
+			buildConfigurationList = 0D76AE782071199200023462 /* Build configuration list for PBXNativeTarget "FactoryDemo" */;
 			buildPhases = (
-				0D76AE2820705A5F00023462 /* Sources */,
-				0D76AE2920705A5F00023462 /* Frameworks */,
-				0D76AE2A20705A5F00023462 /* CopyFiles */,
+				0D76AE6D2071199200023462 /* Sources */,
+				0D76AE6E2071199200023462 /* Frameworks */,
+				0D76AE6F2071199200023462 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -125,60 +125,60 @@
 			);
 			name = FactoryDemo;
 			productName = FactoryDemo;
-			productReference = 0D76AE2C20705A5F00023462 /* FactoryDemo */;
+			productReference = 0D76AE712071199200023462 /* FactoryDemo */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0D76AE2420705A5F00023462 /* Project object */ = {
+		0D76AE692071199200023462 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = FY;
 				TargetAttributes = {
-					0D76AE2B20705A5F00023462 = {
+					0D76AE702071199200023462 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0D76AE2720705A5F00023462 /* Build configuration list for PBXProject "FactoryDemo" */;
+			buildConfigurationList = 0D76AE6C2071199200023462 /* Build configuration list for PBXProject "FactoryDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0D76AE2320705A5F00023462;
-			productRefGroup = 0D76AE2D20705A5F00023462 /* Products */;
+			mainGroup = 0D76AE682071199200023462;
+			productRefGroup = 0D76AE722071199200023462 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D76AE2B20705A5F00023462 /* FactoryDemo */,
+				0D76AE702071199200023462 /* FactoryDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0D76AE2820705A5F00023462 /* Sources */ = {
+		0D76AE6D2071199200023462 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D76AE672070660900023462 /* IPhoneX_256G.m in Sources */,
-				0D76AE61207065EA00023462 /* IPhoneX.m in Sources */,
-				0D76AE5E2070601C00023462 /* IPhoneXGenerator.m in Sources */,
-				0D76AE5B20705FB000023462 /* IPhoneX_256G_Generator.m in Sources */,
-				0D76AE64207065FC00023462 /* IPhoneX_64G.m in Sources */,
-				0D76AE3020705A5F00023462 /* main.m in Sources */,
-				0D76AE5820705F8C00023462 /* IPhoneX_64G_Generator.m in Sources */,
+				0D76AE7F20711B3C00023462 /* IPhone.m in Sources */,
+				0D76AE8820711BA600023462 /* IPhoneGenerator.m in Sources */,
+				0D76AE8220711B4F00023462 /* IPhoneSE.m in Sources */,
+				0D76AE8B20711C0C00023462 /* IPhoneXGenerator.m in Sources */,
+				0D76AE752071199200023462 /* main.m in Sources */,
+				0D76AE8E20711C2E00023462 /* IPhoneSEGenerator.m in Sources */,
+				0D76AE8520711B8C00023462 /* IPhoneX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0D76AE3120705A5F00023462 /* Debug */ = {
+		0D76AE762071199200023462 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +233,7 @@
 			};
 			name = Debug;
 		};
-		0D76AE3220705A5F00023462 /* Release */ = {
+		0D76AE772071199200023462 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,7 +281,7 @@
 			};
 			name = Release;
 		};
-		0D76AE3420705A5F00023462 /* Debug */ = {
+		0D76AE792071199200023462 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -289,7 +289,7 @@
 			};
 			name = Debug;
 		};
-		0D76AE3520705A5F00023462 /* Release */ = {
+		0D76AE7A2071199200023462 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -300,25 +300,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D76AE2720705A5F00023462 /* Build configuration list for PBXProject "FactoryDemo" */ = {
+		0D76AE6C2071199200023462 /* Build configuration list for PBXProject "FactoryDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D76AE3120705A5F00023462 /* Debug */,
-				0D76AE3220705A5F00023462 /* Release */,
+				0D76AE762071199200023462 /* Debug */,
+				0D76AE772071199200023462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D76AE3320705A5F00023462 /* Build configuration list for PBXNativeTarget "FactoryDemo" */ = {
+		0D76AE782071199200023462 /* Build configuration list for PBXNativeTarget "FactoryDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D76AE3420705A5F00023462 /* Debug */,
-				0D76AE3520705A5F00023462 /* Release */,
+				0D76AE792071199200023462 /* Debug */,
+				0D76AE7A2071199200023462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0D76AE2420705A5F00023462 /* Project object */;
+	rootObject = 0D76AE692071199200023462 /* Project object */;
 }
