@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D917F572074F9700076C0DA /* ApplePhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D917F4B2074F9700076C0DA /* ApplePhone.m */; };
+		0D917F582074F9700076C0DA /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D917F4D2074F9700076C0DA /* Phone.m */; };
+		0D917F592074F9700076C0DA /* SamsungPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D917F4F2074F9700076C0DA /* SamsungPhone.m */; };
+		0D917F5A2074F9700076C0DA /* AppleComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D917F522074F9700076C0DA /* AppleComputer.m */; };
+		0D917F5B2074F9700076C0DA /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D917F542074F9700076C0DA /* Computer.m */; };
+		0D917F5C2074F9700076C0DA /* SamsungComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D917F562074F9700076C0DA /* SamsungComputer.m */; };
+		0DE6A8C02073CC5800DF6205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6A8BF2073CC5800DF6205 /* main.m */; };
+		0DE6A8CA2073CC7A00DF6205 /* BrandingGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6A8C92073CC7A00DF6205 /* BrandingGenerator.m */; };
+		0DE6A8CD2073CCC400DF6205 /* AppleBrandingGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6A8CC2073CCC400DF6205 /* AppleBrandingGenerator.m */; };
+		0DE6A8D02073CCE000DF6205 /* SamsungBrandingGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6A8CF2073CCE000DF6205 /* SamsungBrandingGenerator.m */; };
+		0DE6A8DE2073CD6D00DF6205 /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6A8DD2073CD6D00DF6205 /* TV.m */; };
+		0DE6A8E12073CD7D00DF6205 /* AppleTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6A8E02073CD7D00DF6205 /* AppleTV.m */; };
+		0DE6A8E42073CD8B00DF6205 /* SamsungTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6A8E32073CD8B00DF6205 /* SamsungTV.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0DE6A8BA2073CC5800DF6205 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D917F4A2074F9700076C0DA /* ApplePhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePhone.h; sourceTree = "<group>"; };
+		0D917F4B2074F9700076C0DA /* ApplePhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplePhone.m; sourceTree = "<group>"; };
+		0D917F4C2074F9700076C0DA /* Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		0D917F4D2074F9700076C0DA /* Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
+		0D917F4E2074F9700076C0DA /* SamsungPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamsungPhone.h; sourceTree = "<group>"; };
+		0D917F4F2074F9700076C0DA /* SamsungPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamsungPhone.m; sourceTree = "<group>"; };
+		0D917F512074F9700076C0DA /* AppleComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleComputer.h; sourceTree = "<group>"; };
+		0D917F522074F9700076C0DA /* AppleComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleComputer.m; sourceTree = "<group>"; };
+		0D917F532074F9700076C0DA /* Computer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Computer.h; sourceTree = "<group>"; };
+		0D917F542074F9700076C0DA /* Computer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Computer.m; sourceTree = "<group>"; };
+		0D917F552074F9700076C0DA /* SamsungComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamsungComputer.h; sourceTree = "<group>"; };
+		0D917F562074F9700076C0DA /* SamsungComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamsungComputer.m; sourceTree = "<group>"; };
+		0DE6A8BC2073CC5800DF6205 /* AbstractFactoryDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbstractFactoryDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE6A8BF2073CC5800DF6205 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DE6A8C82073CC7A00DF6205 /* BrandingGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrandingGenerator.h; sourceTree = "<group>"; };
+		0DE6A8C92073CC7A00DF6205 /* BrandingGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrandingGenerator.m; sourceTree = "<group>"; };
+		0DE6A8CB2073CCC400DF6205 /* AppleBrandingGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleBrandingGenerator.h; sourceTree = "<group>"; };
+		0DE6A8CC2073CCC400DF6205 /* AppleBrandingGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleBrandingGenerator.m; sourceTree = "<group>"; };
+		0DE6A8CE2073CCE000DF6205 /* SamsungBrandingGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamsungBrandingGenerator.h; sourceTree = "<group>"; };
+		0DE6A8CF2073CCE000DF6205 /* SamsungBrandingGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamsungBrandingGenerator.m; sourceTree = "<group>"; };
+		0DE6A8DC2073CD6D00DF6205 /* TV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TV.h; sourceTree = "<group>"; };
+		0DE6A8DD2073CD6D00DF6205 /* TV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TV.m; sourceTree = "<group>"; };
+		0DE6A8DF2073CD7D00DF6205 /* AppleTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleTV.h; sourceTree = "<group>"; };
+		0DE6A8E02073CD7D00DF6205 /* AppleTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleTV.m; sourceTree = "<group>"; };
+		0DE6A8E22073CD8B00DF6205 /* SamsungTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamsungTV.h; sourceTree = "<group>"; };
+		0DE6A8E32073CD8B00DF6205 /* SamsungTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamsungTV.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DE6A8B92073CC5800DF6205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D917F492074F9700076C0DA /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				0D917F4A2074F9700076C0DA /* ApplePhone.h */,
+				0D917F4B2074F9700076C0DA /* ApplePhone.m */,
+				0D917F4C2074F9700076C0DA /* Phone.h */,
+				0D917F4D2074F9700076C0DA /* Phone.m */,
+				0D917F4E2074F9700076C0DA /* SamsungPhone.h */,
+				0D917F4F2074F9700076C0DA /* SamsungPhone.m */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		0D917F502074F9700076C0DA /* Computer */ = {
+			isa = PBXGroup;
+			children = (
+				0D917F512074F9700076C0DA /* AppleComputer.h */,
+				0D917F522074F9700076C0DA /* AppleComputer.m */,
+				0D917F532074F9700076C0DA /* Computer.h */,
+				0D917F542074F9700076C0DA /* Computer.m */,
+				0D917F552074F9700076C0DA /* SamsungComputer.h */,
+				0D917F562074F9700076C0DA /* SamsungComputer.m */,
+			);
+			path = Computer;
+			sourceTree = "<group>";
+		};
+		0DE6A8B32073CC5800DF6205 = {
+			isa = PBXGroup;
+			children = (
+				0DE6A8BE2073CC5800DF6205 /* AbstractFactoryDemo */,
+				0DE6A8BD2073CC5800DF6205 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DE6A8BD2073CC5800DF6205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DE6A8BC2073CC5800DF6205 /* AbstractFactoryDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DE6A8BE2073CC5800DF6205 /* AbstractFactoryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0D917F502074F9700076C0DA /* Computer */,
+				0D917F492074F9700076C0DA /* Phone */,
+				0DE6A8C62073CC5C00DF6205 /* TV */,
+				0DE6A8C72073CC6000DF6205 /* Generator */,
+				0DE6A8BF2073CC5800DF6205 /* main.m */,
+			);
+			path = AbstractFactoryDemo;
+			sourceTree = "<group>";
+		};
+		0DE6A8C62073CC5C00DF6205 /* TV */ = {
+			isa = PBXGroup;
+			children = (
+				0DE6A8DC2073CD6D00DF6205 /* TV.h */,
+				0DE6A8DD2073CD6D00DF6205 /* TV.m */,
+				0DE6A8DF2073CD7D00DF6205 /* AppleTV.h */,
+				0DE6A8E02073CD7D00DF6205 /* AppleTV.m */,
+				0DE6A8E22073CD8B00DF6205 /* SamsungTV.h */,
+				0DE6A8E32073CD8B00DF6205 /* SamsungTV.m */,
+			);
+			path = TV;
+			sourceTree = "<group>";
+		};
+		0DE6A8C72073CC6000DF6205 /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				0DE6A8C82073CC7A00DF6205 /* BrandingGenerator.h */,
+				0DE6A8C92073CC7A00DF6205 /* BrandingGenerator.m */,
+				0DE6A8CB2073CCC400DF6205 /* AppleBrandingGenerator.h */,
+				0DE6A8CC2073CCC400DF6205 /* AppleBrandingGenerator.m */,
+				0DE6A8CE2073CCE000DF6205 /* SamsungBrandingGenerator.h */,
+				0DE6A8CF2073CCE000DF6205 /* SamsungBrandingGenerator.m */,
+			);
+			path = Generator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DE6A8BB2073CC5800DF6205 /* AbstractFactoryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DE6A8C32073CC5800DF6205 /* Build configuration list for PBXNativeTarget "AbstractFactoryDemo" */;
+			buildPhases = (
+				0DE6A8B82073CC5800DF6205 /* Sources */,
+				0DE6A8B92073CC5800DF6205 /* Frameworks */,
+				0DE6A8BA2073CC5800DF6205 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactoryDemo;
+			productName = AbstractFactoryDemo;
+			productReference = 0DE6A8BC2073CC5800DF6205 /* AbstractFactoryDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DE6A8B42073CC5800DF6205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = FY;
+				TargetAttributes = {
+					0DE6A8BB2073CC5800DF6205 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0DE6A8B72073CC5800DF6205 /* Build configuration list for PBXProject "AbstractFactoryDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DE6A8B32073CC5800DF6205;
+			productRefGroup = 0DE6A8BD2073CC5800DF6205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DE6A8BB2073CC5800DF6205 /* AbstractFactoryDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DE6A8B82073CC5800DF6205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D917F5B2074F9700076C0DA /* Computer.m in Sources */,
+				0D917F582074F9700076C0DA /* Phone.m in Sources */,
+				0DE6A8E12073CD7D00DF6205 /* AppleTV.m in Sources */,
+				0DE6A8DE2073CD6D00DF6205 /* TV.m in Sources */,
+				0DE6A8E42073CD8B00DF6205 /* SamsungTV.m in Sources */,
+				0D917F572074F9700076C0DA /* ApplePhone.m in Sources */,
+				0DE6A8CA2073CC7A00DF6205 /* BrandingGenerator.m in Sources */,
+				0DE6A8C02073CC5800DF6205 /* main.m in Sources */,
+				0DE6A8CD2073CCC400DF6205 /* AppleBrandingGenerator.m in Sources */,
+				0DE6A8D02073CCE000DF6205 /* SamsungBrandingGenerator.m in Sources */,
+				0D917F592074F9700076C0DA /* SamsungPhone.m in Sources */,
+				0D917F5C2074F9700076C0DA /* SamsungComputer.m in Sources */,
+				0D917F5A2074F9700076C0DA /* AppleComputer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0DE6A8C12073CC5800DF6205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0DE6A8C22073CC5800DF6205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0DE6A8C42073CC5800DF6205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DE6A8C52073CC5800DF6205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DE6A8B72073CC5800DF6205 /* Build configuration list for PBXProject "AbstractFactoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE6A8C12073CC5800DF6205 /* Debug */,
+				0DE6A8C22073CC5800DF6205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DE6A8C32073CC5800DF6205 /* Build configuration list for PBXNativeTarget "AbstractFactoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE6A8C42073CC5800DF6205 /* Debug */,
+				0DE6A8C52073CC5800DF6205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DE6A8B42073CC5800DF6205 /* Project object */;
+}
