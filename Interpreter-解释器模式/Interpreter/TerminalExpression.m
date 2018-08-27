@@ -12,6 +12,7 @@
 
 - (NSString *)interpretStr:(NSString *)string
 {
+    
     return [string lowercaseString];
 }
 
